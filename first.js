@@ -36,7 +36,7 @@ function Timer(){
                 clearInterval(w);
             }
             
-        },50);
+        },1000);
     
 }
 function hitChanger(){
