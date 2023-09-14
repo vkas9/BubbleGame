@@ -91,8 +91,9 @@ h1:hover{
     align-items: center;
     flex-wrap: wrap;
     /* margin:10px; */
-    /* overflow: scroll; */
+    overflow:scroll;
     /* border:2px solid red; */
+
 }
 .panel .bubble{
     display: flex;
