@@ -57,6 +57,7 @@ li:hover{
 .button{
     list-style-type: none;
     width:111px;
+    user-select: none;
 }
 .score_container{
     width:100px;
@@ -67,6 +68,7 @@ li:hover{
     align-items: center;
     box-shadow: 2px 2px 20px black inset;
     border-radius:5px;
+    background-color: rgb(50, 108, 63);
     
 }
 .score{
@@ -76,6 +78,7 @@ li:hover{
     padding:10px;
     border-radius: 5px;
     box-shadow: 2px 2px 20px black inset;
+    user-select: none;
     
     
 }
@@ -113,12 +116,15 @@ h1:hover{
     color:white;
     
     user-select: none;
-    transition: all .3s;
+    transition: all .2s;
     
 }
 .bubble:hover{
+
     cursor: pointer;
+}
+.bubble:active{
     background-color: white;
-    color:black;
+    color:rgb(6, 55, 6);
     /* box-shadow: 2px 2px 50px black inset; */
 }

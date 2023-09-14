@@ -16,6 +16,19 @@ function Circles(){
     }
     f.innerHTML+=temp;
 }
+function grad(){
+    const gd=document.querySelector(".menu")
+    setInterval(()=>{
+        
+        const red=Math.floor(Math.random()*255);
+        const green=Math.floor(Math.random()*255);
+        const blue=Math.floor(Math.random()*255);
+        const color=`rgb(${red},${green},${blue})`;
+        // gd.style.background=linear-gradient(  color,  color);
+        gd.style.background=color;
+        
+    },900);
+}
 function Timer(){
     
     let time=60;
@@ -55,3 +68,4 @@ document.querySelector(".panel")
 hitChanger();
 Timer();
 Circles();
+grad();
