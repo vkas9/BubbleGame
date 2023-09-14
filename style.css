@@ -22,7 +22,7 @@ body,html{
 .container{
     /* display: flex; */
     border-radius:10px;
-    width:99%;
+    width:97%;
     height:97%;
     background-color: rgb(50, 108, 63);
     overflow: hidden;
@@ -94,14 +94,14 @@ h1:hover{
     /* overflow: scroll; */
     /* border:2px solid red; */
 }
-.panel div{
+.panel .bubble{
     display: flex;
     align-items: center;
     justify-content: center;
     margin:5px;
-    height:50px;
-    width:50px;
-    background-color: white;
+    height:90px;
+    width:90px;
+    background-color: black;
     border-radius: 50%;
     font-size: 20px;
 }
@@ -109,14 +109,15 @@ h1:hover{
 .bubble{
     /* background-color: ; */
     
-    color:black;
+    color:white;
+    
     user-select: none;
     transition: all .3s;
     
 }
 .bubble:hover{
     cursor: pointer;
-    background-color: black;
-    color:white;
+    background-color: white;
+    color:black;
     /* box-shadow: 2px 2px 50px black inset; */
 }
