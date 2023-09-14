@@ -31,12 +31,13 @@ function Timer(){
                 alert(`Times up! and your score is ${t}`);
                 const f=document.querySelector(".panel");
                 f.style.color="white";
-                f.textContent="The End!!!!";
+                f.style.background="black";
+                f.textContent="THE END!!!!";
 
                 clearInterval(w);
             }
             
-        },1000);
+        },10);
     
 }
 function hitChanger(){
