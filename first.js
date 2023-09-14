@@ -12,7 +12,7 @@ function Circles(){
     const f=document.querySelector(".panel")
     for(let i=1;i<=120;i++){
     
-        temp+= `<h1>${Math.floor(Math.random()*20)}</h1>`
+        temp+= `<div class="bubble">${Math.floor(Math.random()*20)}</div>`
     }
     f.innerHTML+=temp;
 }
