@@ -25,7 +25,7 @@ function grad(){
         const blue=Math.floor(Math.random()*255);
         const color=`rgb(${red},${green},${blue})`;
         // gd.style.background=linear-gradient(  color,  color);
-        gd.style.background=color;
+        // gd.style.background=color;
         
     },900);
 }
