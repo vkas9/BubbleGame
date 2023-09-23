@@ -58,7 +58,7 @@ li:hover{
     cursor: pointer;
     background-color: rgb(2, 57, 2);
 } */
-.button{
+.button {
     list-style-type: none;
     width:111px;
     user-select: none;
@@ -75,6 +75,18 @@ li:hover{
     background-color: rgb(50, 108, 63);
     
 }
+.start{
+    list-style-type: none;
+    width:111px;
+    text-align: center;
+    padding:10px;
+    font-size: 15px;
+}
+.s:hover{
+    background-color: rgb(3, 91, 3);
+    cursor: pointer;
+}
+
 .score{
     
     background-color: green;

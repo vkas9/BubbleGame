@@ -65,7 +65,14 @@ document.querySelector(".panel")
 
     }
 })
+function Start(){
+    const button=document.querySelector(".start");
+    button.addEventListener("click",()=>{
+        Timer();
+        button.style.disabled=true;
+    })
+}
 hitChanger();
-Timer();
+Start();
 Circles();
 grad();
